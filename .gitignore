@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# resume
+data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database files
+logs/
+*.log
+*.sqlite
+*.db
+*.sqlite3
+
+# Ignore environment variables and secrets
+.env
+.env.local
+.env.development
+.env.production
+*.pem
+config.json
+
+# Ignore AI-related model checkpoints (if any)
+models/
+checkpoints/
+
+# Ignore cache and temporary files
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Python dependency files
+Pipfile.lock
+poetry.lock
+requirements.txt
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiled Cython and extension files
+*.so
+*.pyd
+
+# Ignore test coverage reports
+.coverage
+htmlcov/
