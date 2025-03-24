@@ -30,7 +30,6 @@ logs/
 config.json
 
 # Ignore AI-related model checkpoints (if any)
-models/
 checkpoints/
 
 # Ignore cache and temporary files
